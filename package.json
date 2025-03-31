@@ -1,0 +1,30 @@
+{
+  "name": "secure-password-manager",
+  "version": "1.0.0",
+  "description": "A secure password manager with AES-256 encryption",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "password",
+    "security",
+    "encryption",
+    "aes-256"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "argon2": "^0.30.3",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "node-forge": "^1.3.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22"
+  }
+} 
