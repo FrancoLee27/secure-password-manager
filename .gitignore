@@ -54,4 +54,7 @@ Thumbs.db
 # Project specific
 db/
 keys/
-config/local_config.py 
+config/local_config.py
+
+# Export files
+password-manager-export.zip 
